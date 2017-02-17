@@ -1,0 +1,28 @@
+﻿<Window x:Class="SotsukenGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SotsukenGenerator"
+        xmlns:matgui="clr-namespace:MatGUI;assembly=MatGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        UseLayoutRounding="True"
+        Background="{DynamicResource MatBackGroundBrush}">
+    <Grid>
+        <matgui:MatWorkspace>
+            <Grid>
+                <Grid>
+                    <matgui:PhantasmagoriaTabControl>
+                        <matgui:PhantasmagoriaTabItem Header="単語フロー">
+
+                        </matgui:PhantasmagoriaTabItem>
+                        <matgui:PhantasmagoriaTabItem Header="生成">
+
+                        </matgui:PhantasmagoriaTabItem>
+                    </matgui:PhantasmagoriaTabControl>
+                </Grid>
+            </Grid>
+        </matgui:MatWorkspace>
+    </Grid>
+</Window>
